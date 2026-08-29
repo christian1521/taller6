@@ -14,7 +14,7 @@ def test_make_prediction(client: TestClient, test_data: pd.DataFrame) -> None:
 
     # When
     response = client.post(
-        "http://54.173.42.18:8001/api/v1/predict",
+        "http://3.83.157.234:8001/api/v1/predict",
         json=payload,
     )
 
